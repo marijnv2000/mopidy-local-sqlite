@@ -45,6 +45,7 @@ but be aware that these are still subject to change::
   directories =
       Albums                  local:directory?type=album
       Artists                 local:directory?type=artist
+      Album Artists           local:directory?type=artist&role=albumartist
       Composers               local:directory?type=artist&role=composer
       Genres                  local:directory?type=genre
       Performers              local:directory?type=artist&role=performer
